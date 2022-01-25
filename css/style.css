@@ -79,6 +79,7 @@ h4 {
   justify-content: space-between;
 }
 .header__nav {
+  width: 65%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -455,15 +456,7 @@ label {
     font-size: 1rem;
   }
   .hero {
-    text-align: center;
     padding-top: 120px;
-  }
-  .hero__examples {
-    flex-direction: column;
-  }
-  .hero__examples p {
-    margin-bottom: 20px;
-    margin-top: 20px;
   }
   .hero__image {
     margin-top: 55px;
@@ -507,8 +500,16 @@ label {
     display: block;
   }
   .hero__container {
+    text-align: center;
     flex-direction: column;
     align-items: center;
+  }
+  .hero__examples {
+    flex-direction: column;
+  }
+  .hero__examples p {
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .hero__image img {
     max-width: 450px;
